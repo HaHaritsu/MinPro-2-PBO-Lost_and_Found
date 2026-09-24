@@ -137,13 +137,33 @@ Status temuan dapat diperbarui melalui menu edit temuan.
 
 Program memiliki dummy data yang dimasukkan ke dalam `ArrayList` ketika program pertama kali dijalankan.
 
-Dummy data yang tersedia meliputi:
+Dummy data yang tersedia meliputi data barang, pelapor kehilangan, pelapor penemu, laporan, dan temuan.
 
-* Data barang
-* Data pelapor kehilangan
-* Data pelapor penemu
-* Data laporan
-* Data temuan
+#### Data Barang
+
+| ID Barang | Nama Barang  | Kategori | Warna | Lokasi       |
+| --------- | ------------ | -------- | ----- | ------------ |
+| B001      | Dompet Kulit | Dompet   | Hitam | Area Parkir  |
+| B002      | Kunci Motor  | Kunci    | Hitam | Teras Gedung |
+
+#### Data Pelapor
+
+| ID Pelapor | Nama | No HP        | Jenis Pelapor      | Data Tambahan               |
+| ---------- | ---- | ------------ | ------------------ | --------------------------- |
+| P001       | Andi | 081234567890 | Pelapor Kehilangan | NIK: 6471010101010001       |
+| P002       | Budi | 081298765432 | Pelapor Penemu     | Lokasi Temuan: Teras Gedung |
+
+#### Data Laporan
+
+| ID Laporan | Pelapor | Barang       | Tanggal    | Lokasi      | Keterangan                          | Status          |
+| ---------- | ------- | ------------ | ---------- | ----------- | ----------------------------------- | --------------- |
+| L001       | Andi    | Dompet Kulit | 20-09-2026 | Area Parkir | Dompet berisi kartu dan uang tunai. | Belum ditemukan |
+
+#### Data Temuan
+
+| ID Temuan | Barang      | Pelapor | Lokasi       | Tanggal    | Status        |
+| --------- | ----------- | ------- | ------------ | ---------- | ------------- |
+| T001      | Kunci Motor | Budi    | Teras Gedung | 21-09-2026 | Belum diklaim |
 
 Dengan adanya dummy data, pengguna dapat langsung menggunakan fitur **Lihat** tanpa harus memasukkan data terlebih dahulu.
 
