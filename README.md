@@ -431,11 +431,3 @@ Package ini berisi class `Lostnfound` yang menjadi class utama program.
 * Jalannya program
 
 Pemisahan package ini menjadi penerapan struktur yang mengarah pada **MVC**, khususnya pemisahan bagian **Model** dari bagian utama aplikasi.
-
----
-
-## Kesimpulan Penerapan Minpro 2
-
-Pada Mini Project 2, program LostnFound dikembangkan dari Mini Project 1 dengan menambahkan beberapa konsep PBO. Program sekarang menerapkan **access modifier** melalui penggunaan `private` dan `public`, **encapsulation** melalui getter dan setter, serta **validasi input** untuk menjaga agar data yang dimasukkan sesuai dengan aturan program.
-
-Selain itu, program telah menerapkan **inheritance** dengan `Pelapor` sebagai superclass dan `PelaporKehilangan` serta `PelaporPenemu` sebagai subclass. Program juga menerapkan **polymorphism** melalui method overriding `getJenisPelapor()`. Dummy data digunakan agar fitur Read dapat langsung menampilkan data saat program dijalankan. Sebagai nilai tambah, program menggunakan pemisahan package yang mengarah pada struktur **MVC** serta mendokumentasikan penerapan struktur tersebut.
